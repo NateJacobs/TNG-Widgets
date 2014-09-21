@@ -1,0 +1,52 @@
+/* Stylesheet for the TNG Widgets plugin */
+
+/* =TNG Widgets - General
+-------------------------------------------------------------- */
+.cl-warea-3 h3 {
+	font-size: 128%;
+}
+
+/* =TNG Surnames Cloud
+-------------------------------------------------------------- */
+.tng-cloud-link, .tng-cloud-link:hover {
+	text-decoration: none;
+}
+
+
+/* =TNG Profile Box
+-------------------------------------------------------------- */
+.widget_tng_profile_box{
+    
+}
+.clickable.cl-widget {
+//	border: 1px solid #efefef;
+}
+.clickable.cl-widget:hover {
+	border: 1px solid #666;
+}
+.widget_tng_profile_box { position: relative; }
+.widget_tng_profile_box { text-align: center; }
+.tng-profile-name {  }
+.tng-profile-photo img { margin: 8px; }
+.widget_tng_profile_box .smalliamge { margin: 8px; }
+.tng-profile-years { }
+.tng-profile-description { margin: 4px; margin-bottom: 12px;}
+
+/* =TNG Lists
+-------------------------------------------------------------- */
+.cl-warea-2 .tng-list {
+	margin: 20px;
+    padding-left: 20px; /* for list bullets/numbers */
+}
+.cl-warea-3 .tng-list {
+	margin: 8px;
+    padding-left: 20px; /* for list bullets/numbers */
+}
+.cl-warea-3 .no-bullets {
+    padding-left: 0px;
+	list-style: none;
+}
+
+.tng-list-item { padding: inherit; }
+.tng-list-value { float: right; }
+.tng-list-date { float: right; }
