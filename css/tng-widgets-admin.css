@@ -1,0 +1,59 @@
+/* Stylesheet for the TNG Widgets admin pages */
+.tng-widget-admin {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tng-widget-admin {
+    width: 100%;
+    padding: 2px;
+}
+.tng-widget-admin:first-child {float:left;}
+.tng-option-title input {
+    width: 79%;
+    float: right;
+    padding: 2px;
+}
+.tng-option-text input {
+    width: 39%;
+    float: right;
+    padding: 2px;
+	text-align: right;
+}
+.tng-option-number input {
+    width: 39%;
+    float: right;
+    padding: 2px;
+	text-align: right;
+}
+.tng-option-textarea input {
+    width: 39%;
+    float: right;
+    padding: 2px;
+}
+.tng-option-checkbox input {
+    float: right;
+    padding: 2px;
+}
+.tng-option-droplist select {
+    width: 39%;
+    float: right;
+    padding: 2px;
+}
+
+/*
+.tng-widget-label {
+    display: inline-block;
+	width: 120px;
+}
+.tng-widget-input {
+	float: right;
+}
+.tng-widget-label.tng-description,
+.tng-widget-label.tng-personID {
+	width: 120px;
+}
+.tng-widget-input.tng-personID {
+	width: 60px;
+}
+*/
